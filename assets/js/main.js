@@ -27,6 +27,12 @@ const app = {
     isRepeat: false,
     songs: [
         {
+            name: "Vì Mẹ Anh Bắt Chia Tay",
+            singer: "Miu Lê, Karik",
+            path: "./assets/music/ViMeAnhBatChiaTay.mp3",
+            image: "./assets/imgs/vi-me-anh-bat-chia-tay.jpg"
+        },
+        {
             name: "Chạy về nơi phía anh",
             singer: "Khắc Việt",
             path: "./assets/music/ChayVeNoiPhiaAnh.mp3",
@@ -258,5 +264,6 @@ const app = {
         btnRandom.classList.toggle("active", this.isRandom)
         btnRepeat.classList.toggle("active", this.isRepeat)
     }
+    
 }
 app.start()
